@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema 
+	attributeFormDefault="qualified" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:tns="http://services.apostil.kz/" 
+>
+	<xs:element name="GetConfirmationResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="1" name="pep_application_id" type="xs:string"/>
+				<xs:element minOccurs="1" maxOccurs="1" name="spp_application_id" type="xs:string"/>
+				<xs:element minOccurs="1" maxOccurs="1" name="spp_apostilled_document_id" type="xs:string"/>
+				
+				<xs:element minOccurs="1" maxOccurs="1" name="status" type="xs:string"/>
+				
+				<xs:element minOccurs="1" maxOccurs="1" name="applicant">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element minOccurs="1" maxOccurs="1" name="surname" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string"/>
+							<xs:element minOccurs="0" maxOccurs="1" name="patronymic" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="iin" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+					
+				<xs:element minOccurs="1" maxOccurs="1" name="apostilled_document">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="extension" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="base64" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>	
+				
+				<xs:element minOccurs="1" maxOccurs="1" name="apostille_stamp">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element minOccurs="1" maxOccurs="1" name="name" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="extension" type="xs:string"/>
+							<xs:element minOccurs="1" maxOccurs="1" name="base64" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element minOccurs="1" maxOccurs="1" name="apostille_code" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

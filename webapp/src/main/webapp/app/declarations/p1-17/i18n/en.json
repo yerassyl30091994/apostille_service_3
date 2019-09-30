@@ -1,0 +1,23 @@
+{
+  "p1-17": {
+    "title": "Получение электронной копии штампа апостиля по ранее выданному апостилю",
+    "apostilledDocumentId": "Document ID",
+    "apostilleCode": "Apostille code",
+    "nextButton": "Next",
+    "applicantName": "Name",
+    "applicantSurname": "Surname",
+    "applicantPatronymic": "Patronymic",
+    "applicantIIN": "ИИН заявителя",
+    "sppApplicationId": "sppApplicationId",
+    "sppApostilledDocumentId": "sppApostilledDocumentId",
+    "result": "Получение свидетельства о регистрации рождения либо мотивированный ответ об отказе.",
+    "status": "Статус",
+    "searchResult": "Search results",
+    "noData": "There is no data."
+  },
+    "status": {
+        "estimates": {
+            "1dOr17d": "2 working days (in case of submission of the application within 3 working days from the date of a child birth), 7 working days (in the case of an application after 3 working days from the date of a child birth)"
+        }
+    }
+}

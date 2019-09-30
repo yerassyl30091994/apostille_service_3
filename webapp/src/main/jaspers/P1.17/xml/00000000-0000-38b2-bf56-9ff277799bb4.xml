@@ -1,0 +1,98 @@
+<data>
+                        <dateDeclaration>2015-09-07+06:00</dateDeclaration>
+                        <numberDeclaration>12</numberDeclaration>
+                        <dataReceiptDocument>2015-09-11+06:00</dataReceiptDocument>
+                        <nameZAGSCode>
+                            <code>500</code>
+                            <nameRU>Новый ЗАГС-1</nameRU>
+                            <nameKZ>Новый ЗАГС-1</nameKZ>
+                        </nameZAGSCode>
+                        <adressAndPhoneZAGSRU>СЕЙФУЛИНА 5</adressAndPhoneZAGSRU>
+                        <adressAndPhoneZAGSKZ>СЕЙФУЛИНА 5</adressAndPhoneZAGSKZ>
+                        <dateAct>2015-09-04+06:00</dateAct>
+                        <numberAct>10-500-15-0000087</numberAct>
+                        <child>
+                            <iin>150126825354</iin>
+                            <name>МАРИЯ</name>
+                            <secondname>СВАЛУХИНА</secondname>
+                            <surname>ЕВГЕНИЕВНА</surname>
+                            <birthDate>2015-01-26+06:00</birthDate>
+                        </child>
+                        <father>
+                            <name>ЕВГЕНИЙ</name>
+                            <secondname>ОЛЕГОВИЧ</secondname>
+                            <surname>СВАЛУХИН</surname>
+                            <birthDate>1988-03-19+06:00</birthDate>
+                        </father>
+                        <mother>
+                            <name>МАРИНА</name>
+                            <secondname>ЭРВИНОВНА</secondname>
+                            <surname>ШЕК</surname>
+                            <birthDate>1954-09-25+06:00</birthDate>
+                        </mother>
+                        <requestNumber>10109000756139</requestNumber>
+                        <messageDate
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+                            <senderCode>ZAGS</senderCode>
+                            <status>
+                                <code>3</code>
+                                <nameRU>Рождение зарегистрировано</nameRU>
+                                <nameKZ>Туу тіркелді</nameKZ>
+                            </status>
+                            <ds:Signature
+                                xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                                <ds:SignedInfo>
+                                    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                                    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gost34310-gost34311"/>
+                                    <ds:Reference URI="">
+                                        <ds:Transforms>
+                                            <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                                            <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+                                        </ds:Transforms>
+                                        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gost34311"/>
+                                        <ds:DigestValue>llOgQSyu7ugqnxc1A8R/SWtZ1yf8MWwxyu74A1jo/+4=</ds:DigestValue>
+                                    </ds:Reference>
+                                </ds:SignedInfo>
+                                <ds:SignatureValue>
+aRLGMwQPAMxS6BkYFsxSVY2HIQ3sy5JsLGjN115JLzprhq6ETHMrhG8iNK/uNZyFuXWauY6qlOmB
+3N4ercJdmA==
+</ds:SignatureValue>
+                                <ds:KeyInfo>
+                                    <ds:X509Data>
+                                        <ds:X509Certificate>
+MIIGyzCCBnSgAwIBAgIgd8zJO5G6NbGTu2ip8+YfJ9Kh1hcvcGpJJ91onryMlhIwDgYKKwYBBAG1
+EQECAgUAMIIBFDEfMB0GA1UEAwwW0J3Qo9CmINCg0JogKNCT0J7QodCiKTFDMEEGA1UECww60JjQ
+vdGE0YDQsNGB0YLRgNGD0LrRgtGD0YDQsCDQvtGC0LrRgNGL0YLRi9GFINC60LvRjtGH0LXQuTFx
+MG8GA1UECgxo0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INGD0LTQvtGB0YLQvtCy0LXRgNGP0Y7R
+idC40Lkg0YbQtdC90YLRgCDQoNC10YHQv9GD0LHQu9C40LrQuCDQmtCw0LfQsNGF0YHRgtCw0L0x
+FTATBgNVBAcMDNCQ0YHRgtCw0L3QsDEVMBMGA1UECAwM0JDRgdGC0LDQvdCwMQswCQYDVQQGEwJL
+WjAeFw0xMzAxMTExMzA2MDVaFw0xNDAxMTExMzA2MDVaMIIB9TEYMBYGA1UEBRMPSUlONzIwNzI1
+NDAyMDg0MRgwFgYDVQQLDA9CSU4wODA1NDAwMTQ4NTQxgf0wgfoGA1UECgyB8tCT0J7QodCj0JTQ
+kNCg0KHQotCS0JXQndCd0J7QlSDQo9Cn0KDQldCW0JTQldCd0JjQlSAi0JrQntCc0JjQotCV0KIg
+0KDQldCT0JjQodCi0KDQkNCm0JjQntCd0J3QntCZINCh0JvQo9CW0JHQqyDQmCDQntCa0JDQl9CQ
+0J3QmNCvINCf0KDQkNCS0J7QktCe0Jkg0J/QntCc0J7QqdCYINCc0JjQndCY0KHQotCV0KDQodCi
+0JLQkCDQrtCh0KLQmNCm0JjQmCDQoNCV0KHQn9Cj0JHQm9CY0JrQmCDQmtCQ0JfQkNCl0KHQotCQ
+0J0iMSYwJAYDVQQDDB3QmtCQ0JvQmNCc0J7QktCQINCS0JXQndCV0KDQkDEZMBcGA1UEBAwQ0JrQ
+kNCb0JjQnNCe0JLQkDEfMB0GA1UEKgwW0JrQkNCc0KvQodCR0JDQldCS0J3QkDEgMB4GCSqGSIb3
+DQEJARYRTlVSQk9MMDA5QE1BSUwuUlUxCzAJBgNVBAYTAktaMRUwEwYDVQQIDAzQkNCh0KLQkNCd
+0JAxFTATBgNVBAcMDNCQ0KHQotCQ0J3QkDBjMA4GCisGAQQBtREBBQgFAANRAAYCAAA6qgAAAEVD
+MQACAAD07G+EVQqwdKy03ZXyNo55jW2h+VUcbXOF4cgHInPlaj9/wXxHjq9JlPJv2KEbEInF7qHV
+D/OkQPv+CrV5uLoKo4ICozCCAp8wHQYDVR0OBBYEFAk+7let7VwIYJmdgTCPTYR72geKMEIGCCsG
+AQUFBwEBBDYwNDAyBggrBgEFBQcwAoYmaHR0cDovL3BraS5nb3Yua3ovaW5mby9jYWNlcnRfZ29z
+dC5jZXIwDAYDVR0jBAUwA4ABMDALBgNVHQ8EBAMCAMAwZAYDVR0uBF0wWzAroCmgJ4YlaHR0cDov
+L2NybC5wa2kua3ovY3JsL0dvc3QwX2RlbHRhLmNybDAsoCqgKIYmaHR0cDovL2NybDEucGtpLmt6
+L2NybC9Hb3N0MF9kZWx0YS5jcmwwggFIBgNVHSAEggE/MIIBOzCBuwYHKoMOAwMCATCBrzA2Bggr
+BgEFBQcCARYqaHR0cDovL3BraS5nb3Yua3ovaW5mby9wb2xpY3lfc2lnbl9sZWcucGRmMHUGCCsG
+AQUFBwICMGkaZ8Tr/yDv7uTv6PHoIP3r5ery8O7t7fv1IOTu6vPs5e3y7uIg/vDo5Oj35fHq6Owg
+6+j27uwuIM/w5eTt4Oft4Pfl7ejlIC0g8fTl8OAg3evl6vLw7u3t7uPuIM/w4OLo8uXr/PHy4uAw
+ewYHKoMOAwMBATBwMDAGCCsGAQUFBwIBFiRodHRwOi8vcGtpLmdvdi5rei9pbmZvL2NhX3BvbGlj
+eS5wZGYwPAYIKwYBBQUHAgIwMBou0OXj6+Ds5e3yIM3g9uju7eDr/O3u4+4g0+Tu8fLu4uXw//75
+5ePuINbl7fLw4DATBgNVHSUEDDAKBggrBgEFBQcDBDBYBgNVHR8EUTBPMCWgI6Ahhh9odHRwOi8v
+Y3JsLnBraS5rei9jcmwvR29zdDAuY3JsMCagJKAihiBodHRwOi8vY3JsMS5wa2kua3ovY3JsL0dv
+c3QwLmNybDAOBgorBgEEAbURAQICBQADQQATGWzubwdPFJqOf7sHpxhDxEclW/QiyILSfq04oE7W
+XJ4k8DbvWHLkwIGY2ALy1acyyB6stFwWGRBSUtfG0Og3
+</ds:X509Certificate>
+                                    </ds:X509Data>
+                                </ds:KeyInfo>
+                            </ds:Signature>
+                        </data>

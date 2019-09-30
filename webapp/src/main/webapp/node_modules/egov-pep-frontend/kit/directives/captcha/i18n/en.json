@@ -1,0 +1,10 @@
+{
+  "captcha":{
+    "title": "Enter the text from the image",
+    "updateCaptcha": "Update captcha",
+    "error": {
+      "incorrectcaptcha": "Wrong captcha",
+      "serverError": "An error has occurred when signing. Please try again later."
+    }
+  }
+}

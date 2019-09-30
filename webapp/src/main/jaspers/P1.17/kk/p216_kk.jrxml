@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.4.final using JasperReports Library version 6.0.4  -->
+<!-- 2015-10-20T09:47:41 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="p215_ru" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="0" bottomMargin="10" isSummaryWithPageHeaderAndFooter="true" whenResourceMissingType="Empty" uuid="9aa30c16-1208-4bfd-90d7-3cc270f67d85">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="P1.17"/>
+	<style name="BaseStyle" isDefault="true" fill="Solid" hTextAlign="Left" hImageAlign="Left" vTextAlign="Middle" vImageAlign="Middle" markup="styled" isBlankWhenNull="true" fontName="Times New Roman" fontSize="14" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" pdfFontName="times.ttf" pdfEncoding="Identity-H" isPdfEmbedded="true">
+		<pen lineWidth="0.5" lineColor="#000000"/>
+	</style>
+	<style name="BackgroundStyle" style="BaseStyle" fontSize="7"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA[""]]></defaultValueExpression>
+	</parameter>
+	<parameter name="QR_DATA" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="QR_INFO" class="java.lang.String" isForPrompting="false"/>
+	<queryString language="xPath">
+		<![CDATA[/data]]>
+	</queryString>
+	<field name="child_name" class="java.lang.String">
+		<fieldDescription><![CDATA[child/name]]></fieldDescription>
+	</field>
+	<field name="child_surname" class="java.lang.String">
+		<fieldDescription><![CDATA[child/surname]]></fieldDescription>
+	</field>
+	<field name="child_secondname" class="java.lang.String">
+		<fieldDescription><![CDATA[child/secondname]]></fieldDescription>
+	</field>
+	<field name="child_birthdate" class="java.lang.String">
+		<fieldDescription><![CDATA[child/birthDate]]></fieldDescription>
+	</field>
+	<field name="child_city" class="java.lang.String">
+		<fieldDescription><![CDATA[child/city]]></fieldDescription>
+	</field>
+	<field name="child_country_nameRU" class="java.lang.String">
+		<fieldDescription><![CDATA[child/country/nameRU]]></fieldDescription>
+	</field>
+	<field name="child_disctrict_nameRU" class="java.lang.String">
+		<fieldDescription><![CDATA[child/district/nameRU]]></fieldDescription>
+	</field>
+	<field name="child_iin" class="java.lang.String">
+		<fieldDescription><![CDATA[child/iin]]></fieldDescription>
+	</field>
+	<field name="child_region_nameRU" class="java.lang.String">
+		<fieldDescription><![CDATA[child/region/nameRU]]></fieldDescription>
+	</field>
+	<field name="father_birthdate" class="java.lang.String">
+		<fieldDescription><![CDATA[father/birthDate]]></fieldDescription>
+	</field>
+	<field name="father_name" class="java.lang.String">
+		<fieldDescription><![CDATA[father/name]]></fieldDescription>
+	</field>
+	<field name="father_surname" class="java.lang.String">
+		<fieldDescription><![CDATA[father/surname]]></fieldDescription>
+	</field>
+	<field name="father_secondname" class="java.lang.String">
+		<fieldDescription><![CDATA[father/secondname]]></fieldDescription>
+	</field>
+	<field name="mother_birthdate" class="java.lang.String">
+		<fieldDescription><![CDATA[mother/birthDate]]></fieldDescription>
+	</field>
+	<field name="mother_name" class="java.lang.String">
+		<fieldDescription><![CDATA[mother/name]]></fieldDescription>
+	</field>
+	<field name="mother_surname" class="java.lang.String">
+		<fieldDescription><![CDATA[mother/surname]]></fieldDescription>
+	</field>
+	<field name="mother_secondname" class="java.lang.String">
+		<fieldDescription><![CDATA[mother/secondname]]></fieldDescription>
+	</field>
+	<field name="dateReceiptDocument" class="java.lang.String">
+		<fieldDescription><![CDATA[dataReceiptDocument]]></fieldDescription>
+	</field>
+	<field name="dateAct" class="java.lang.String">
+		<fieldDescription><![CDATA[dateAct]]></fieldDescription>
+	</field>
+	<field name="dateDeclaration" class="java.lang.String">
+		<fieldDescription><![CDATA[dateDeclaration]]></fieldDescription>
+	</field>
+	<field name="nameZAGSCode_nameRU" class="java.lang.String">
+		<fieldDescription><![CDATA[nameZAGSCode/nameRU]]></fieldDescription>
+	</field>
+	<field name="nameZAGSCode_nameKZ" class="java.lang.String">
+		<fieldDescription><![CDATA[nameZAGSCode/nameKZ]]></fieldDescription>
+	</field>
+	<field name="numberAct" class="java.lang.String">
+		<fieldDescription><![CDATA[numberAct]]></fieldDescription>
+	</field>
+	<field name="numberDeclaration" class="java.lang.String">
+		<fieldDescription><![CDATA[numberDeclaration]]></fieldDescription>
+	</field>
+	<field name="adressAndPhoneZAGSRU" class="java.lang.String">
+		<fieldDescription><![CDATA[adressAndPhoneZAGSRU]]></fieldDescription>
+	</field>
+	<field name="adressAndPhoneZAGSKZ" class="java.lang.String">
+		<fieldDescription><![CDATA[adressAndPhoneZAGSKZ]]></fieldDescription>
+	</field>
+	<field name="child_country_nameKZ" class="java.lang.String">
+		<fieldDescription><![CDATA[child/country/nameKZ]]></fieldDescription>
+	</field>
+	<field name="child_disctrict_nameKZ" class="java.lang.String">
+		<fieldDescription><![CDATA[child/district/nameKZ]]></fieldDescription>
+	</field>
+	<field name="child_region_nameKZ" class="java.lang.String">
+		<fieldDescription><![CDATA[child/region/nameKZ]]></fieldDescription>
+	</field>
+	<field name="requestNumber" class="java.lang.String">
+		<fieldDescription><![CDATA[requestNumber]]></fieldDescription>
+	</field>
+	<field name="requestDate" class="java.lang.String">
+		<fieldDescription><![CDATA[dataReceiptDocument]]></fieldDescription>
+	</field>
+	<background>
+		<band height="80" splitType="Stretch">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<subreport runToBottom="true">
+				<reportElement positionType="Float" x="-20" y="0" width="595" height="80" isPrintWhenDetailOverflows="true" uuid="49791073-5037-4f0e-b868-6fb04c92ca5b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<subreportParameter name="REQUEST_NUMBER">
+					<subreportParameterExpression><![CDATA[$F{requestNumber}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="REQUEST_DATE">
+					<subreportParameterExpression><![CDATA[new Date(new SimpleDateFormat("yyyy-MM-dd").parse($F{dateDeclaration}).getTime())]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="QR_DATA">
+					<subreportParameterExpression><![CDATA[$P{QR_DATA}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="QR_INFO">
+					<subreportParameterExpression><![CDATA[$P{QR_INFO}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA["base_template_portrait_v1.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</background>
+	<pageHeader>
+		<band height="80">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="50">
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="0" y="0" width="555" height="22" uuid="5b99899b-56c7-4612-9633-bb4ea1309cfc">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">"+
+("Баланың туу туралы актілік жазбасын тіркеу туралы хабарлама")+
+"</style>"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement positionType="Float" x="10" y="0" width="540" height="20" uuid="f5c11e98-b9c9-413f-9e23-4e29088602b3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">Әкесі: </style>"+($F{father_surname}==null ? "":$F{father_surname})+" "+($F{father_name}==null ? "":$F{father_name})+" "+($F{father_secondname}==null ? "":$F{father_secondname})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement positionType="Float" x="10" y="0" width="540" height="20" uuid="17f7f0f3-77db-48d1-bc06-580c887c3d35">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">Анасы: </style>"+($F{mother_surname}==null ? "":$F{mother_surname})+" "+($F{mother_name}==null ? "":$F{mother_name})+" "+($F{mother_secondname}==null ? "":$F{mother_secondname})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement positionType="Float" x="10" y="0" width="540" height="20" uuid="95433630-b111-4e8e-b648-6a8279eb4080">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">Бала: </style>"+($F{child_surname}==null ? "":$F{child_surname})+" "+($F{child_name}==null ? "":$F{child_name})+" "+($F{child_secondname}==null ? "":$F{child_secondname})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement positionType="Float" x="10" y="0" width="540" height="20" uuid="815dc9d0-b2a3-4c15-ac80-11eb47f31c27">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">Туылған күні: </style>"+new SimpleDateFormat("dd.MM.yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{child_birthdate}==null ? "":$F{child_birthdate}))]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement positionType="Float" x="10" y="0" width="540" height="20" uuid="5a41b8bd-1085-4067-ae76-9e47ac419a1e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">ЖСН: </style>"+($F{child_iin}==null ? "":$F{child_iin})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="10" y="10" width="540" height="10" uuid="fb13e3fc-e666-4ba6-8b9a-56d68e0ad373">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box bottomPadding="20">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="false"/>
+					<paragraph firstLineIndent="0" leftIndent="0" tabStopWidth="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style pdfFontName=\"timesbd.ttf\">Туу туралы актілік жазба № "+$F{numberAct}+" "+new SimpleDateFormat("dd.MM.yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{dateAct}))+" тіркелді</style>"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" x="10" y="20" width="540" height="20" uuid="72d5575c-5e27-4296-9bac-70d42b880ad5">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="14" isBold="false"/>
+					<paragraph tabStopWidth="40"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style isBold=\"true\" pdfFontName=\"timesbd.ttf\">Тіркеу органы: </style>"+($F{nameZAGSCode_nameKZ}==null ? "":$F{nameZAGSCode_nameKZ})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isStretchWithOverflow="true">
+				<reportElement positionType="Float" x="10" y="10" width="540" height="10" uuid="6de810fd-6f7c-48aa-be38-e09384635602">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box bottomPadding="20"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="13" isBold="false"/>
+					<paragraph firstLineIndent="0" leftIndent="0"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<style pdfFontName=\"timesbd.ttf\">Туу туралы куәлікті алу үшін Сізге "+new SimpleDateFormat("dd.MM.yyyy").format(new SimpleDateFormat("yyyy-MM-dd").parse($F{requestDate}==null ? "":$F{requestDate}))+" "+($F{adressAndPhoneZAGSKZ}==null ? "":$F{adressAndPhoneZAGSKZ})+" мекенжайы бойынша келу қажет. Өзіңізбен бірге туу туралы медициналық куәліктің түпнұсқасын ала келу қажет</style>"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="270">
+			<property name="local_mesure_unitheight" value="pixel"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</pageFooter>
+</jasperReport>

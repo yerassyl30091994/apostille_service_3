@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<goResponse>
+    <adressAndPhoneZAGSKZ>[KZ] АСТАНА, УЛИЦА ПУШКИНА, 31/2, т 236874</adressAndPhoneZAGSKZ>
+    <adressAndPhoneZAGSRU>АСТАНА, УЛИЦА ПУШКИНА, 31/2, т 236874</adressAndPhoneZAGSRU>
+    <child>
+        <birthDate>2015-08-08T00:00:00+05:00</birthDate>
+        <name>СЕРГЕЙ</name>
+        <secondname>ИВАНОВИЧ</secondname>
+        <surname>АНТОНОВ</surname>
+        <city>АСТАНА</city>
+        <country>
+            <code>308</code>
+            <nameKZ>[KZ] КАЗАХСТАН</nameKZ>
+            <nameRU>КАЗАХСТАН</nameRU>
+        </country>
+        <district>
+            <code>2558</code>
+            <nameKZ>[KZ] АСТАНА</nameKZ>
+            <nameRU>АСТАНА</nameRU>
+        </district>
+        <iin>150808123456</iin>
+        <region>
+            <code>00255</code>
+            <nameKZ>[KZ] САРЫАРКА</nameKZ>
+            <nameRU>САРЫАРКА</nameRU>
+        </region>
+    </child>
+    <dataReceiptDocument>2015-08-12T09:02:35.140+05:00</dataReceiptDocument>
+    <dateAct>2015-08-08T00:00:00+05:00</dateAct>
+    <dateDeclaration>2015-08-12T09:02:35.140+05:00</dateDeclaration>
+    <documentParams>
+        <favodId>10109000652033</favodId>
+        <issueDate>2015-08-14T09:02:35.157+05:00</issueDate>
+    </documentParams>
+    <father>
+        <birthDate>1988-03-19T00:00:00+05:00</birthDate>
+        <name>ЕВГЕНИЙ</name>
+        <secondname>ОЛЕГОВИЧ</secondname>
+        <surname>СВАЛУХИН</surname>
+    </father>
+    <iinDeclarant>910925451406</iinDeclarant>
+    <mother>
+        <birthDate>1991-09-25T00:00:00+05:00</birthDate>
+        <name>МАРИНА</name>
+        <secondname>ШЕК</secondname>
+        <surname>ЭРВИНОВНА</surname>
+    </mother>
+    <nameZAGSCode>
+        <code>255</code>
+        <nameKZ>[KZ] ОТДЕЛ ЗАГС РАЙОНА САРЫАРКА ГОРОДА АСТАНА</nameKZ>
+        <nameRU>ОТДЕЛ ЗАГС РАЙОНА САРЫАРКА ГОРОДА АСТАНА</nameRU>
+    </nameZAGSCode>
+    <numberAct>5689-251-54566/2</numberAct>
+    <numberDeclaration>123456789</numberDeclaration>
+</goResponse>

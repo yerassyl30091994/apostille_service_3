@@ -1,0 +1,112 @@
+<div ng-controller="controller_p1_17">
+
+    <declaration>
+
+        <ng-include src="'app/declarations/_information/about-declaration.html'"></ng-include>
+
+        <step id="input">
+
+            <div class="wrapper">
+
+                <div class="input-wrapper">
+                    <label class="label-type">{{ 'p1-17.apostilledDocumentId' | translate }}</label>
+                    <input class="input-type" ng-model="person.sppApostilledDocumentId"/>
+                </div>
+
+
+                <div class="input-wrapper">
+                    <label class="label-type">{{ 'p1-17.apostilleCode' | translate }}</label>
+                    <input class="input-type" ng-model="person.apostilleCode"/>
+                </div>
+
+                <!-- ********************-->
+
+                <div class="input-wrapper" ng-if="!$settings.isPod()">
+                    <captcha117></captcha117>
+                </div>
+                <!--*********************-->
+<!--                <button class="button-type button-action"-->
+
+<!--                        ng-click="$declaration.loadTaxes()" >-->
+<!--               Next-->
+<!--                </button>-->
+
+            </div>
+
+        </step>
+
+
+        <step id="status">
+            <div class="wrapper f-fix">
+
+                <h2>{{'p1-17.searchResult' | translate}}</h2>
+
+                <div ng-show="haveTrueResult">
+
+                    <div class="input-wrapper">
+                        <label class="label-type">{{ 'p1-17.applicantIIN' | translate }}</label>
+                        <strong>{{applicantIIN}}</strong>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label class="label-type">{{ 'p1-17.applicantSurname' | translate }}</label>
+                        <strong>{{applicantSurname}}</strong>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label class="label-type">{{ 'p1-17.applicantName' | translate }}</label>
+                        <strong>{{applicantName}}</strong>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label class="label-type">{{ 'p1-17.applicantPatronymic' | translate }}</label>
+                        <strong>{{applicantPatronymic}}</strong>
+                    </div>
+
+                </div>
+
+                <p ng-show="!haveTrueResult">
+                    <span>{{'p1-17.noData' | translate}}</span>
+                </p>
+
+                <p ng-show="haveTrueResult">Здесь будет штамп документа.pdf</p>
+                <p ng-show="haveTrueResult">Здесь будет сам документ.pdf</p>
+
+
+<!--                **************************************-->
+
+<!--                <div class="results" ng-if="$declaration.state.resultsForDownload.length > 0">-->
+<!--                    <a href="{{result.url}}" ng-repeat="result in $declaration.state.resultsForDownload" target="_blank">-->
+<!--                        <table>-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <img ng-src="kit/_styles/images/icons/icon-pdf.png" alt="pdf">-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <div ng-if="$locales.current() === 'ru'" class="width-result-pdf"> {{ result.nameRu }}</div>-->
+<!--                                    <div ng-if="$locales.current() === 'kz'" class="width-result-pdf"> {{ result.nameKk }}</div>-->
+<!--                                    <div ng-if="$locales.current() === 'en'" class="width-result-pdf"> {{ result.nameEn }}</div>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                        </table>-->
+<!--                    </a>-->
+<!--                </div>-->
+
+<!--                ***********************************************************************-->
+
+                <button class="button-type button-action button-newreq"
+                        style="width: 100% !important;"
+                        ng-click="goInputStep()">
+                    {{ 'status.restart' | translate }}
+                </button>
+
+
+
+
+
+            </div>
+        </step>
+
+
+    </declaration>
+</div>

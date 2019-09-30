@@ -1,0 +1,16 @@
+kz/itig/egov/pep/p117/jbpm/producer/WorkItemProducer.class
+kz/itig/egov/pep/p117/service/TestMain.class
+kz/itig/egov/pep/p117/service/ApplicationBuilder.class
+kz/itig/egov/pep/p117/GetConfirmationResponse$Applicant.class
+kz/itig/egov/pep/p117/ObjectFactory.class
+kz/itig/egov/pep/p117/jbpm/producer/GetInformationFromTask.class
+kz/itig/egov/pep/p117/GetConfirmationResponse$ApostilledDocument.class
+kz/itig/egov/pep/p117/model/ApplicationP216.class
+kz/itig/egov/pep/p117/GetConfirmationResponse.class
+kz/itig/egov/pep/p117/jbpm/producer/AssetProducer.class
+kz/itig/egov/pep/p117/config/AppProperties.class
+kz/itig/egov/pep/p117/rest/TestRest.class
+kz/itig/egov/pep/p117/jbpm/producer/GetInformation.class
+kz/itig/egov/pep/p117/GetConfirmation.class
+kz/itig/egov/pep/p117/GetConfirmationResponse$ApostilleStamp.class
+kz/itig/egov/pep/p117/service/Converter.class

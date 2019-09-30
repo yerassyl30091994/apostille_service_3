@@ -1,0 +1,30 @@
+<div class="captcha">
+
+    <div class="input-wrapper">
+
+            <label for="input_captcha" class="label-type">
+                <span>*</span>
+                {{'captcha.title' | translate}}
+            </label>
+            <div>
+                <img id="captcha_picture" /><img id="captcha_update" src="build/images/icon-refresh.png" alt="{{'captcha.updateCaptcha' | translate}}" ng-click="updateCaptchaCode()" />
+            </div>
+            <input
+                    id="input_captcha"
+                    class="input-type kb_small"
+                    block="b-input-text"
+                    type="text"
+                    mod="{ state: state }"
+                    ng-model="code"/>
+
+    </div>
+
+    <button class="button-type button-action"
+            style="width: 100% !important;"
+            ng-click="checkCaptchaAndGoToStep()"
+            ng-disabled="disable || !code"
+>
+        {{'cert.next' | translate}}
+    </button>
+
+</div>

@@ -1,0 +1,23 @@
+{
+  "p1-17" : {
+    "title": "Получение электронной копии штампа апостиля по ранее выданному апостилю",
+    "apostilledDocumentId": "Құжаттың ID",
+    "apostilleCode": "Апостиль коды",
+    "nextButton": "Келесі",
+    "applicantName": "Аты",
+    "applicantSurname": "Тегі",
+    "applicantPatronymic": "Әкесінің аты",
+    "applicantIIN": "ИИН заявителя",
+    "sppApplicationId": "sppApplicationId",
+    "sppApostilledDocumentId": "sppApostilledDocumentId",
+    "result": "Получение свидетельства о регистрации рождения либо мотивированный ответ об отказе.",
+    "status": "Статус",
+    "searchResult": "Іздеу нәтижесі",
+    "noData": "Мәліметтер табылмады."
+  },
+    "status": {
+        "estimates": {
+            "1dOr17d": "2 жұмыс күн (бала туған күннен бастап, 3 жұмыс күні ішінде өтініш берген жағдайда), 7 жұмыс күн (бала туған күннен бастап, 3 жұмыс күнінен кейін өтініш берген жағдайда)"
+        }
+    }
+}
